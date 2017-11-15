@@ -27,7 +27,7 @@ public class CamClientMqtts {
 
     private static final Logger logger = Logger.getLogger(CamClientMqtts.class);
 
-    static String MQTT_URL = "ssl://mqtt.staging.l-kloud.com:8884";
+    static String MQTT_URL = "ssl://localhost:8883";
 
     public static void main(String args[]) {
         CamClientMqtts test_MQTTS = new CamClientMqtts();

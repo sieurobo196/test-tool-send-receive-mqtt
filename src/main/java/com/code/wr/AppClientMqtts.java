@@ -26,7 +26,7 @@ import org.fusesource.mqtt.client.Topic;
 public class AppClientMqtts {
     
     private static final Logger logger = Logger.getLogger(AppClientMqtts.class);
-    static String MQTT_URL = "ssl://mqtt.staging.l-kloud.com:8884";
+    static String MQTT_URL = "ssl://localhost:8883";
     
     public static void main(String args[]) {
         AppClientMqtts test_MQTTS = new AppClientMqtts();
